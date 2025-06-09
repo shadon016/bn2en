@@ -1,0 +1,28 @@
+{
+  "name": "bn2en",
+  "version": "1.0.0",
+  "description": "Convert Bangla (Bengali) numbers to English and vice versa easily.",
+  "main": "index.js",
+  "keywords": [
+    "bangla",
+    "bengali",
+    "number",
+    "digit",
+    "converter",
+    "bangla to english",
+    "english to bangla",
+    "number conversion",
+    "bangla number",
+    "bn2en",
+    "en2bn",
+    "utility",
+    "numerals"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadon016/bn2en"
+  }
+}
+

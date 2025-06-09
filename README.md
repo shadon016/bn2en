@@ -24,21 +24,21 @@ npm install bn2en
 
 ## Node.js / CommonJS
 
-const BanglaNumberConverter = require('bn2en');
+const BanglaNumberConverter = require('bn2en');<br/>
 const converter = new BanglaNumberConverter();
 
-console.log(converter.toEnglish("১২৩৪৫")); // Output: 12345
+console.log(converter.toEnglish("১২৩৪৫")); // Output: 12345<br/>
 console.log(converter.toBangla("67890"));   // Output: ৬৭৮৯০
 
 ## ES6 / React / Next.js
 
 import BanglaNumberConverter from 'bn2en';
 
-const converter = new BanglaNumberConverter();
-const english = converter.toEnglish("১২৩৪");
+const converter = new BanglaNumberConverter();<br/>
+const english = converter.toEnglish("১২৩৪");<br/>
 const bangla = converter.toBangla("5678");
 
-console.log(english); // 1234
+console.log(english); // 1234<br/>
 console.log(bangla);  // ৫৬৭৮
 
 ## API Reference

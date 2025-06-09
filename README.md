@@ -19,12 +19,12 @@ A simple utility for developers who work with Bangla digit-based applications (e
 ## 📦 Installation
 
 ```bash
-npm install bangla-num-convert
+npm install bn2en
 ```
 
 ## Node.js / CommonJS
 
-const BanglaNumberConverter = require('bangla-num-convert');
+const BanglaNumberConverter = require('bn2en');
 const converter = new BanglaNumberConverter();
 
 console.log(converter.toEnglish("১২৩৪৫")); // Output: 12345
@@ -32,7 +32,7 @@ console.log(converter.toBangla("67890"));   // Output: ৬৭৮৯০
 
 ## ES6 / React / Next.js
 
-import BanglaNumberConverter from 'bangla-num-convert';
+import BanglaNumberConverter from 'bn2en';
 
 const converter = new BanglaNumberConverter();
 const english = converter.toEnglish("১২৩৪");
@@ -71,7 +71,6 @@ MIT License
 Have questions or suggestions?
 📧 mail: shadon016@gmail.com
 🌐 GitHub: github.com/shadon016
-
 
 
 
